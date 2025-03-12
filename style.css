@@ -5,21 +5,21 @@
 }
 
 body {
-    height: 100vh;
     margin: 0;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
 
+/* Estilos del header */
 .header {
     background-color: #1f2937;
-    font-family: 'Roboto';
     color: white;
     padding: 0 100px;
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 500px;
  }
 
 .contenedor1 {
@@ -84,6 +84,7 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-align: justify;
     font-size: 18px;
     color: #E5E7EB;
  }
@@ -119,3 +120,53 @@ button {
     object-position: center;
     border-radius: 10px;
  }
+/* Fin del header */
+
+/* Inicio estilos de los servicios */
+ .servicios {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+ }
+
+.cajas-servicios {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cajas {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajas img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.titulo-servicios {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.parrafo-servicios {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: initial;
+}
+/* Fin de los servicios */
