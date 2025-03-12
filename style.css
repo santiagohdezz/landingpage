@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    flex-wrap: wrap;
 }
 
 /* Estilos del header */
@@ -124,7 +125,7 @@ button {
 
 /* Inicio estilos de los servicios */
  .servicios {
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,11 +139,11 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .cajas {
-    width: 300px;
+    width: 200px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -150,23 +151,64 @@ button {
 }
 
 .cajas img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
 }
 
 .titulo-servicios {
-    font-size: 20px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .parrafo-servicios {
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     margin-top: 20px;
     font-weight: initial;
 }
 /* Fin de los servicios */
+
+/* Inicio seccion cita */
+.cita {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase-cita {
+    font-family: 'light italic';
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.persona {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/* Fin seccion cita */
+
+/* Inicio footer */
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Fin footer */
